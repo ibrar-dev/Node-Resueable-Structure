@@ -3,7 +3,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 
 
-const {PORT} = require('./config');
+const {PORT} = require('./env');
 
 const app = express();
 
